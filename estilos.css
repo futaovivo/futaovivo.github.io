@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+div#interface{
+
+	background-color: rgb(228,224,244);
+	width: 1200px;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 4px rgba(0,0,0, .5);
+	padding: 10px;
+}
+header#cabecalho{
+
+	height: 120px;
+	position:relative;
+
+}
+header#cabecalho h1{
+
+	font-size: 30pt;
+	font-family: 'Bungee Inline', cursive;
+	padding: 0px;
+	margin: 0;
+}
+header#cabecalho h2{
+
+	padding: 0px;
+	margin: -35px 0px 0px 0px;
+	font-family: 'Acme', sans-serif;
+	text-transform: uppercase;
+	font-size: 15pt;
+	text-indent: 20px;
+}
+header div#adsheader{
+
+	position: absolute;
+	top:0px;
+	left: 550px;
+	width: 600px;
+	height: 100px;
+	background-color: rgba(0,0,0, .3);
+	color:#fff;
+	display: block;
+	line-height: 100px;
+	text-align: center;
+}
+section#hoje{
+
+	width: 700px;
+	border-right: 2px solid rgb(25,44,2);
+	display: block;
+	float: left;
+}
+section#hoje h1{
+
+	padding: 5px;
+	margin: 0;
+	background-color: rgb(62,124,13);
+	color:#fff;
+	font-family: 'Acme', sans-serif;
+	text-shadow: 1px 1px 4px black;
+	border-left: 5px solid rgb(25,44,2);
+	display: block;
+	float: left;
+	width: 687px;
+
+}
+section#hoje h2{
+
+	padding: 0px;
+	margin: 0;
+	font-size: 15pt;
+	margin-bottom: 20px;
+	font-family: 'VT323', monospace;
+
+}
+figure#dia{
+
+	width: 690px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px rgba(0,0,0, .5);
+	position: relative;
+	background: none;
+}
+figure#dia figcaption{
+
+	position: absolute;
+	top:0px;
+	background-color: rgba(0,0,0, .5);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+figure#dia figcaption:hover{
+
+	opacity: 1;
+}
+figure#dia figcaption h1{
+
+	background:transparent;
+	color: #fff;
+	padding: 0px;
+	margin: 0;
+
+}
+figure#dia figcaption h2{
+
+	color:#fff;
+	padding: 0px;
+	margin:0;
+
+}
+
+aside#proximos{
+
+	display: block;
+	float: right;
+	width: 498px;
+	position: relative;
+
+}
+aside#proximos h1{
+
+	margin:0;
+	padding: 5px;
+	background-color: rgb(62,124,13);
+	text-align: right;
+	font-family: 'Acme', sans-serif;
+	border-right: 5px solid rgb(25,44,2);
+	text-shadow: 1px 1px 4px black;
+	color: #FFF;
+	width: 150px;
+	display: block;
+	float: right;
+}
+
+
+aside#proximos ul{
+
+	margin: 100px auto 0px auto;
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+aside#proximos li{
+
+	padding: 10px;
+	background-color:#daf6d9;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 4px rgba(0,0,0, .5);
+	font-family: 'Share Tech Mono', monospace;
+
+}
+
+footer#rodape{
+
+	border-top: 2px solid rgb(62,124,13);
+	clear: both;
+	padding: 10px;
+	text-align: center;
+}
