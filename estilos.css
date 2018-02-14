@@ -7,10 +7,10 @@
 
 div#interface{
 
-	background-color: rgb(228,224,244);
+	background-color: #fff;
 	width: 1200px;
 	margin: -20px auto 0px auto;
-	box-shadow: 0px 0px 4px rgba(0,0,0, .5);
+	box-shadow: 0 5px 12px #e0e0df;
 	padding: 10px;
 }
 header#cabecalho{
