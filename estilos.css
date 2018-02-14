@@ -38,11 +38,10 @@ header#cabecalho h2{
 header div#adsheader{
 
 	position: absolute;
-	top:0px;
+	top:5px;
 	left: 550px;
 	width: 600px;
 	height: 100px;
-	background-color: rgba(0,0,0, .3);
 	color:#fff;
 	display: block;
 	line-height: 100px;
